@@ -1,0 +1,33 @@
+- let title = 'József Sallai';
+- let description = 'Personal website of József Sallai - software engineer proficient in Node.js, Go, PHP, and Python.';
+
+html(lang='en')
+  head
+    include ./components/head
+  body
+    main.page.content-page
+      .portrait
+        img(src='https://i.sallai.me/assets/photo.jpg', alt=title)
+      .content
+        section.name
+          span.name-inner(title='Click here to find out how to pronounce my name!')= title
+        section.subtitle Who am I?
+        section.textblock
+          | I am a software engineer/full-stack web developer with
+          | rich experience in Node.js, Go, Python, and PHP. I also
+          | design websites and occasionally develop desktop applications.
+        section.subtitle My Experience
+        section.textblock
+          | During my career, I have done freelance work for clients all
+          | around the world. I've been involved with the development of
+          | professional portfolios, school websites, freelance markets,
+          | social media sites, and more.
+        section.subtitle
+          | Contact Me:
+          |
+          a(href='mailto:jozsef@sallai.me') jozsef (at) sallai.me
+        section.socials
+          a.social.gh.fa.fa-github(href="https://github.com/jozsefsallai", target="_blank")
+          a.social.li.fa.fa-linkedin(href="https://www.linkedin.com/in/bigblog/", target="_blank")
+          a.social.tw.fa.fa-twitter(href="https://www.twitter.com/jozsefsallaidev", target="_blank")
+          a.social.resume(href="https://s3-us-west-1.amazonaws.com/sallai/Resume-2018.pdf") Resumé
