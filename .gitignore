@@ -3,3 +3,5 @@ public/*
 !public/images
 !public/_redirects
 *.log
+
+.vercel
