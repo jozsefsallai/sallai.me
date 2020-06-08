@@ -1,6 +1,7 @@
 node_modules
 public/*
 !public/images
+!public/fonts
 !public/_redirects
 *.log
 
