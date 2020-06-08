@@ -1,5 +1,6 @@
 @import './colors';
 @import './mixins';
+@import './fonts';
 
 $fa-font-path: "~font-awesome/fonts";
 @import '~font-awesome/scss/font-awesome';
@@ -7,12 +8,7 @@ $fa-font-path: "~font-awesome/fonts";
 
 body {
   margin: 0;
-  font: 16px / 1.6 'Nunito', sans-serif;
-  user-select: none;
-
-  &.dogeify-example {
-    user-select: text;
-  }
+  font: 16px / 1.6 'comme', sans-serif;
 }
 
 a {
@@ -21,29 +17,6 @@ a {
 
   &:hover {
     color: $accent-second;
-  }
-}
-
-
-form {
-  margin-top: 15px;
-
-  input, button {
-    display: inline-block;
-    border: 1px solid #173e86;
-    padding: 10px 15px;
-    font: 16px / 1.6 'Nunito', sans-serif;
-    margin-right: 10px;
-  }
-  
-  input {
-    min-width: 300px;
-  }
-  
-  button {
-    background: #173e86;
-    color: #fff;
-    cursor: pointer;
   }
 }
 
@@ -67,14 +40,9 @@ form {
   animation: 650ms fadeIn;
 
   .name {
+    font-family: 'sinanova';
     font-size: 75px;
-    font-weight: 700;
-    color: $theme;
-    text-shadow: 4px 4px 0 rgba($theme, 0.35);
-
-    &.discord {
-      font-size: 38px;
-    }
+    color: #232323;
   }
 
   .subtitle {

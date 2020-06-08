@@ -1,0 +1,23 @@
+/* Sina Nova */
+@font-face {
+    font-family: 'sinanova';
+    src: url('/fonts/sinanova/sinanova.woff2') format('woff2'),
+         url('/fonts/sinanova/sinanova.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Comme */
+@font-face {
+    font-family: 'comme';
+    src: url('/fonts/comme/comme-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'comme';
+    src: url('/fonts/comme/comme-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
