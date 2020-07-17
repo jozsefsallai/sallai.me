@@ -23,3 +23,7 @@ if (document.title === '404!!') {
     }
   }
 }
+
+const photoElement = document.querySelector('.portrait img');
+photoElement.setAttribute('src', '/images/photo.jpg');
+photoElement.classList.remove('lazyload');

@@ -68,6 +68,11 @@ a {
 
       img {
         width: 100%;
+
+        &.lazyload {
+          filter: blur(10px);
+          --webkit-filter: blur(10px);
+        }
       }
     }
 
@@ -84,24 +89,24 @@ a {
       font-size: 55px;
       margin-bottom: 15px;
     }
-  
+
     .subtitle {
       margin-top: 0;
-  
+
       a {
         font-weight: 500;
       }
     }
-  
+
     @media only screen and ( max-width: 980px ) {
       width: auto;
       margin: 20px;
-  
+
       .photo {
         display: none;
       }
     }
-  
+
     @media only screen and ( max-width: 380px ) {
       .name {
         font-size: 45px;
