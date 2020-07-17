@@ -5,6 +5,7 @@
          url('/fonts/sinanova/sinanova.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 /* Comme */
@@ -13,6 +14,7 @@
     src: url('/fonts/comme/comme-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -20,4 +22,5 @@
     src: url('/fonts/comme/comme-bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
