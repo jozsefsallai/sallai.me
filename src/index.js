@@ -1,29 +1,29 @@
-import 'styles/base.scss';
+import "styles/base.scss";
 
-import name from 'lib/name';
+import name from "lib/name";
 
-const nameElement = document.querySelector('.name') || null;
+const nameElement = document.querySelector(".name") || null;
 
-switch(window.location.pathname) {
-  case '/':
+switch (window.location.pathname) {
+  case "/":
     nameElement.onclick = name;
     break;
 }
 
-if (document.title === '404!!') {
+if (document.title === "404!!") {
   let quietCounter = 0;
 
   nameElement.onclick = function () {
     quietCounter++;
 
     if (quietCounter === 10) {
-      const quiet = new Audio('https://i.sallai.me/quiet.mp3');
+      const quiet = new Audio("https://i.sallai.me/quiet.mp3");
       quiet.loop = true;
       quiet.play();
     }
-  }
+  };
 }
 
-const photoElement = document.querySelector('.portrait img');
-photoElement.setAttribute('src', '/images/photo.jpg');
-photoElement.classList.remove('lazyload');
+const photoElement = document.querySelector(".portrait img");
+photoElement.setAttribute("src", "/images/photo2.jpg");
+photoElement.classList.remove("lazyload");
