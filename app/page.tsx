@@ -65,7 +65,7 @@ export default function Home() {
           </a>
           <a
             className="social resume"
-            href="https://s3-us-west-1.amazonaws.com/sallai/Jozsef-Sallai-Resume-2023.pdf"
+            href="https://s3-us-west-1.amazonaws.com/sallai/Jozsef-Sallai-Resume-2024.pdf"
           >
             Resumé
           </a>
