@@ -37,8 +37,8 @@ export default function Home() {
         <section className="subtitle">Experience</section>
         <section className="textblock">
           I&apos;ve been involved with the development of all sorts of web apps
-          and sites, ranging from portfolio websites to enterprise-scale social
-          networks and web frameworks.
+          and sites, ranging from simple portfolio websites to complex,
+          enterprise scale social networks, web frameworks, and SaaS dashboards.
         </section>
         <section className="subtitle">
           Contact Me:{" "}
